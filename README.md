@@ -1,4 +1,4 @@
-###Features
+### Features
 
 - Android architecture components (ViewModel, LiveData, Navigation)
 - Fully reactive, powered by RxJava and RxAndroid
