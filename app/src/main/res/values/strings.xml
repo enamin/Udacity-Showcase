@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Udacity Showcase</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tryAgain">Try Again</string>
+    <string name="somethingHappaned">Something happened...</string>
+    <string name="courseDetailAboutLabel">About This Course:</string>
+    <string name="instructorAboutLabel">Instructor</string>
+    <string name="noData">......</string>
+    <string name="instructorBioLabel">Bio:</string>
+
+    <string name="info_dialog_contents">A simple application which showcases Udacity courses; using Android architecture components (ViewModel, LiveData, Navigation)
+        \n
+        \nArchitecture: MVVM
+        \n
+        \nTechnologies: \n....RxJava, \n....RxAndroid, \n....Glide, \n....Butterknife, \n....Retrofit
+        \n
+        \n
+        \nby: Amin Enamy
+        \n2018
+    </string>
+</resources>

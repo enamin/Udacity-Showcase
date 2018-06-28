@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="ena.min.android.udacityshowcase.fragments.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/view_main"
+        >
+        <action
+            android:id="@+id/action_mainFragment_to_courseDetailFragment"
+            app:destination="@id/courseDetailFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:popUpTo="@+id/mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/courseDetailFragment"
+        android:name="ena.min.android.udacityshowcase.fragments.CourseDetailFragment"
+        android:label="CourseDetailFragment"
+        />
+</navigation>
